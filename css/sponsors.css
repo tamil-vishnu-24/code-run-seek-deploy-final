@@ -5,6 +5,10 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sponsorship .heading {
@@ -17,4 +21,3 @@
 .sponsorship .row {
   text-align: center;
 }
-
