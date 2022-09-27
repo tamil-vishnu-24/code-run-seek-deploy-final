@@ -1,0 +1,200 @@
+#home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.home .main--box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.home .ias {
+  transform: translateX(237px);
+  transition: all 0.4s ease-in-out;
+  z-index: 2;
+  transition: all 0.4s ease-in-out;
+}
+
+.home li {
+  list-style: none;
+  margin: 12.3% 0;
+  cursor: pointer;
+  font-size: 30px;
+  justify-content: space-evenly;
+}
+
+.home ul {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.home .sidebar {
+  position: fixed;
+  z-index: 1;
+  padding: 20px;
+  height: 100vh;
+  background-color: #100f0f;
+  color: white;
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+
+.home a {
+  color: #fff;
+  list-style: none;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.home .icon {
+  z-index: 2;
+  font-size: 30px;
+  transition: all 0.4s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  cursor: pointer;
+  color: #03dbc7;
+  margin: 10px;
+}
+
+.home .toggle2 {
+  transform: translateX(-300px);
+}
+
+.home .toggle1 {
+  transform: translateX(0);
+}
+
+.home .logo {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  margin: 0px;
+  padding: 0px 0.5%;
+}
+
+.home .ias, .gravitaslogo, .wie {
+  display: block;
+  height: fit-content;
+  width: fit-content;
+}
+
+.home .ias>img {
+  width: 80px;
+  height: 60px;
+}
+
+.home .wie>img {
+  width: 80px;
+  height: 60px;
+}
+
+.home .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 5px; */
+  color: #03dbc7;
+  /* font-family: Josefin Sans; */
+  text-align: center;
+  font-weight: 900;
+}
+
+.home .main-logo {
+  height: 200px;
+}
+
+.home .content h1 {
+  font-size: 5em;
+  font-weight: 750;
+}
+
+.home .sub-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 36px;
+}
+
+.home .time-text {
+  color: #03dbc7;
+}
+
+.home .content-code {
+  background: linear-gradient(to right,
+      #e40b60 34.65%,
+      rgba(255, 255, 255, 0.546875) 52.23%,
+      #e40b60 72.49%);
+
+  background-clip: text;
+  fill: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.home .time-detail {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+  font-size: 25px;
+  font-style: bold;
+  font-family: "Roboto";
+  color: #e40b60;
+}
+
+.home .buttons {
+  size: 90px;
+}
+
+.home .btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 50px;
+  color: black;
+  background-color: #00fdef;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 4px 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home .btn:hover {
+  background-color: #35bbb5;
+  transform: scale(1.05);
+}
+
+@media (max-width: 420px) {
+  .home .time-detail {
+    font-size: 18px;
+  }
+
+  .home .main-logo {
+    height: 150px;
+    margin-bottom: 10%;
+  }
+
+  .home .content h1 {
+    font-size: 30px;
+  }
+
+  .home .sub-content {
+    font-size: 25px;
+  }
+
+  .home .logo .ias img, .home .logo .wie img {
+    width: 60px;
+    height: 45px;
+  }
+
+  .home .logo .gravitaslogo img {
+    height: 45px;
+  }
+}

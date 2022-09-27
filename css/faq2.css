@@ -1,0 +1,166 @@
+.faq .FAQList{
+    display:  grid;
+    row-gap: 15px;
+   grid-template-columns: auto auto ;
+   margin: auto auto ;
+ 
+ }
+ 
+.faq .indFAQ{
+    /*display: table-cell;*/
+    display: flex;
+    height: 39px;
+    width : 450px;
+    align-items:center;
+    /*justify-content:center;*/
+    /*vertical-align: middle;*/
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgba(0,208,197,1) 0%, rgba(228,11,96,1) 85%);
+ border-radius: 7px;
+ }
+
+.faq .h1{
+    text-align: center;
+    color: #00FDEF ;
+ }
+
+.faq .logo{
+    width: 25px;
+    height: 20px;
+    
+ }
+
+.faq .image{
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-left: auto; 
+ margin-right: 5px;
+ }
+ 
+.faq .box {
+    background: lightblue;
+    width: 0px;
+    height: 0px;
+    margin: 20px auto;
+    /* -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out; */
+  }
+  
+ .faq .open-box {
+      width: 150px;
+      height: 150px;
+    
+      /* -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;*/
+  } 
+
+.faq  #expandFAQ1{
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgb(28, 33, 140) 0%, rgb(11, 228, 76) 85%);
+ margin-top: 0px;
+ border-radius: 7px;
+ height: 120px;
+ display: none;
+ justify-content: center;
+ align-items: center;
+  }
+
+.faq  #expandFAQ2{
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgb(28, 33, 140) 0%, rgb(11, 228, 76) 85%);
+ margin-top: 0px;
+ border-radius: 7px;
+ height: 120px;
+ display: none;
+ align-items: center;
+  }
+
+.faq  #expandFAQ3{
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgb(28, 33, 140) 0%, rgb(11, 228, 76) 85%);
+ margin-top: 0px;
+ border-radius: 7px;
+ height: 120px;
+ display: none;
+ align-items: center;
+  }
+
+.faq  #expandFAQ4{
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgb(28, 33, 140) 0%, rgb(11, 228, 76) 85%);
+ margin-top: 0px;
+ border-radius: 7px;
+ height: 120px;
+ display: none;
+ align-items: center;
+  }
+
+.faq  #expandFAQ5{
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgb(28, 33, 140) 0%, rgb(11, 228, 76) 85%);
+ margin-top: 0px;
+ border-radius: 7px;
+ height: 120px;
+ display: none;
+ align-items: center;
+  }
+
+.faq  #expandFAQ6{
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgb(28, 33, 140) 0%, rgb(11, 228, 76) 85%);
+ margin-top: 0px;
+ border-radius: 7px;
+ height: 120px;
+ display: none;
+ align-items: center;
+  }
+
+.faq  #expandFAQ7{
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgb(28, 33, 140) 0%, rgb(11, 228, 76) 85%);
+ margin-top: 0px;
+ border-radius: 7px;
+ height: 120px;
+ display: none;
+ align-items: center;
+  }
+
+.faq  #expandFAQ8{
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgb(28, 33, 140) 0%, rgb(11, 228, 76) 85%);
+ margin-top: 0px;
+ border-radius: 7px;
+ height: 120px;
+ display: none;
+ align-items: center;
+  }
+
+.faq  #expandFAQ9{
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgb(28, 33, 140) 0%, rgb(11, 228, 76) 85%);
+ margin-top: 0px;
+ border-radius: 7px;
+ height: 120px;
+ display: none;
+ align-items: center;
+  }
+
+.faq  #expandFAQ10{
+    background: rgb(0,208,197);
+ background: linear-gradient(90deg, rgb(28, 33, 140) 0%, rgb(11, 228, 76) 85%);
+ margin-top: 0px;
+ border-radius: 7px;
+ height: 120px;
+ display: none;
+ align-items: center;
+  }
+
+.faq  p{
+    margin-top: 0px;
+    justify-content: center;
+    /* text-align: center; */
+  }

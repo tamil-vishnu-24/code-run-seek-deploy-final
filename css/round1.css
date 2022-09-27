@@ -1,0 +1,294 @@
+.round1 {
+  display: none;
+}
+
+.round1 .main {
+  position: relative;
+  top: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-weight: 700;
+  color: aqua;
+}
+
+.round1 .grid-container 
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: max-content;
+  margin: auto;
+
+}
+.round1 .flip
+{
+    display : flex ;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px 0;
+} 
+.round1 .card {
+    background-color: transparent;
+    width: 200px;
+    height: 150px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+  
+  .round1 .flip-card-inner1.flipCard{
+    transform: rotateY(180deg);
+  }
+  .round1 .flip-card-inner2.flipCard{
+    transform: rotateY(180deg);
+  }
+  .round1 .flip-card-inner3.flipCard{
+    transform: rotateY(180deg);
+  }
+  .round1 .flip-card-inner4.flipCard{
+    transform: rotateY(180deg);
+  }
+  .round1 .flip-card-inner5.flipCard{
+    transform: rotateY(180deg);
+}
+.round1 .flip-card-inner6.flipCard{
+  transform: rotateY(180deg);
+}
+.round1 .flip-card-inner7.flipCard{
+  transform: rotateY(180deg);
+}
+.round1 .flip-card-inner8.flipCard{
+  transform: rotateY(180deg);
+}
+.round1 .flip-card-inner9.flipCard{
+  transform: rotateY(180deg);
+}
+/* This container is needed to position the front and back side */
+.round1 .flip-card-inner1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.round1 .flip-card-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.round1 .flip-card-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.round1 .flip-card-inner4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.round1 .flip-card-inner5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.round1 .flip-card-inner6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.round1 .flip-card-inner7 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.round1 .flip-card-inner8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.round1 .flip-card-inner9 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.round1 .flip-card:hover .flip-card-inner.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.round1 .flip-card-front, .round1 .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 5%;
+}
+
+/* Style the front side (fallback if image is missing) */
+.round1 .flip-card-front {
+  background: linear-gradient(to top, #00FDEF 0%, #E40B60 100%);
+  color: black;
+}
+
+/* Style the back side */
+.round1 .flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flip-card-inner1 .flip-card-back {
+  background-image: url(../images/round1/9.png);
+}
+
+.flip-card-inner2 .flip-card-back {
+  background-image: url(../images/round1/8.png);
+}
+
+.flip-card-inner3 .flip-card-back {
+  background-image: url(../images/round1/7.png);
+}
+
+.flip-card-inner4 .flip-card-back {
+  background-image: url(../images/round1/6.png);
+}
+
+.flip-card-inner5 .flip-card-back {
+  background-image: url(../images/round1/5.png);
+}
+
+.flip-card-inner6 .flip-card-back {
+  background-image: url(../images/round1/4.png);
+}
+
+.flip-card-inner7 .flip-card-back {
+  background-image: url(../images/round1/3.png);
+}
+
+.flip-card-inner8 .flip-card-back {
+  background-image: url(../images/round1/2.png);
+}
+
+.flip-card-inner9 .flip-card-back {
+  background-image: url(../images/round1/1.png);
+}
+
+.round1 .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.round1 .overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.round1 .popup {
+  
+  margin: 250px auto;
+  padding: 50px;
+  background: #fff;
+  border-radius: 20px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  z-index: 5000 !important;
+}
+
+.round1 .popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.round1 .popup .close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.round1 .popup .close:hover {
+  color: #06D85F;
+}
+.round1 .popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .round1 .box{
+    width: 70%;
+  }
+  .round1 .popup{
+    width: 70%;
+  }
+}
+.round1 #form{
+  display: block;
+  
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .round1 .main {
+    top: 5px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .round1 .main {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 650px) and (min-width: 550px) {
+  .round1 .card {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 550px) {
+  .round1 .card {
+    width: 100px;
+    height: 75px;
+  }
+}

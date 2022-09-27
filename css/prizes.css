@@ -1,0 +1,75 @@
+.prizes {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.prizes .main {
+    position: relative;
+    top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: 700;
+    color: aqua;
+    margin-bottom: 25px;
+}
+
+.pricing-table {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ptable-title {
+    text-align: center;
+    font-size: 36px;
+}
+.ptable-item
+{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.prizes ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.prizes ul li {
+    border-bottom: 1px solid #fff;
+    font-size: 1.1em;
+    font-family: sans-serif;
+}
+
+.ptable-description {
+    margin: 20px;
+}
+
+.prizes .btn {
+    left: 5px;
+    font-size: x-large;
+    padding: 5px 8px;
+    border-radius: 112px;
+    color: black;
+    background-color: #00fdef;
+    font-size: 20px;
+    margin: 4px 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ptable-footer {
+    text-align: center;
+}
+@media only screen and (max-width: 1050px) {
+
+    .pricing-table {
+        display: grid;
+        grid-template-columns: auto;
+        width: max-content;
+        margin: auto;
+    }
+
+}
